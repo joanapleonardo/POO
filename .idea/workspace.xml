@@ -5,41 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="020cf946-f901-4138-a8b6-0f1a8a2f587d" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/Acabamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fp10_Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Imovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TipoImovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fp10_Ex4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Calculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Cao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Cao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Fp09/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Carro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Circulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Circulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Combustivel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Combustivel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Fp09/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex04.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex05.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex07.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex08.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex08.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex09.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex09.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Ex11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Livro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Retangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fp09/Retangulo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Imovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Imovel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,26 +38,25 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2P38R7K8FMnF9zr2ahCXs3IMUEE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sdev0223/IdeaProjects/POO",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Projeto_Pratico_Joana_Leonardo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,8 +68,6 @@
       <workItem from="1682674395207" duration="8976000" />
       <workItem from="1683205644999" duration="26092000" />
       <workItem from="1683534238537" duration="248000" />
-      <workItem from="1683534704755" duration="16000" />
-      <workItem from="1683534874253" duration="20185000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1683274617508</created>
@@ -111,11 +82,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
     <MESSAGE value="First Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cao.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

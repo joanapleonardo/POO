@@ -66,8 +66,6 @@ public class Carro {
     public double consumo(double distancia){
 
         return (distancia/100)*litros100Km;
-
-
     }
 
 

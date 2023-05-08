@@ -19,13 +19,67 @@ public class Imovel {
         this.acabamento = acabamento;
     }
 
-    public double calcularValor(){
-        if(this.tipoImovel.equals(TipoImovel.APARTAMENTO)){
-           double valor = this.area*1000;
-        }else if(this.tipoImovel.equals(TipoImovel.CASA)){
-            double valor = this.area*3000;
-        }else if(this.tipoImovel.equals(TipoImovel.MANSAO)) {
-            double valor = this.area * 5000;
+    public double calcularValor() {
+
+        double valor = 0;
+
+        if (this.tipoImovel.equals(TipoImovel.APARTAMENTO)) {
+            valor += area * 1000;
+        } else if (this.tipoImovel.equals(TipoImovel.CASA)) {
+            valor += area * 3000;
+        } else if (this.tipoImovel.equals(TipoImovel.MANSAO)) {
+            valor = area * 5000;
         }
-    return valor;
+
+        if (this.acabamento.equals(Acabamento.RESTAURO)) {
+            valor *= 0.5;
+        } else if (this.acabamento.equals(Acabamento.USADA)) {
+            valor *= 0.1;
+        } else if (this.acabamento.equals(Acabamento.NOVA_ALTO_ACABAMENTO)) {
+            valor *= 1.25;
+        }
+
+        valor += numQuartos * 7500;
+        valor += numWC * 10500;
+        valor += areaPiscina * 1000;
+
+        return valor;
+    }
+
+    public void setEstado(Acabamento novoAcabamento){
+        this.acabamento = novoAcabamento;
+    }
+
+    public void imprimirDescricao() {
+        System.out.println("\n");
+        System.out.println("Imóvel localizado na " + this.rua + ", " + this.numPorta + ", " + this.cidade);
+        System.out.println("Tipo: " + this.tipoImovel);
+        System.out.println("Acabamento: " + this.acabamento);
+        System.out.println("Área: " + area + "m²");
+        System.out.println("Número de quartos: " + this.numQuartos);
+        System.out.println("Número de casas de banho: " + this.numWC);
+        System.out.println("Área da piscina: " + this.areaPiscina + "m²");
+        System.out.println("Estado: " + this.acabamento);
+        System.out.println("\n");
+    }
+
+    public Imovel compararImoveis(Imovel outroImovel) {
+        double imovel = this.calcularValor();
+        double imovel2 = outroImovel.calcularValor();
+
+        if (imovel > imovel2) {
+            return this;
+        } else {
+            return outroImovel;
+        }
+
+    }
+
+    public String getRua(){
+        return rua;
+    }
+
 }
+
+
+
