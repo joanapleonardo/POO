@@ -21,6 +21,58 @@ public class Carro {
         this.litros100Km = litros100Km;
     }
 
+    public void ligar(){
+        if((2023-this.anoFabrico)>30){
+            if(this.combustivel.equals(Combustivel.DIESEL)){
+                System.out.println("Deita um pouco de fumo… Custa a pegar… O carro está ligado!");
+                System.out.println("Vrum-vrum-vrum");
+            }else{
+                System.out.println("Custa a pegar… O carro está ligado!");
+                System.out.println("Vrum-vrum-vrum");
+            }
+        }else{
+            if(this.potencia<250){
+                System.out.println("O carro está ligado!");
+                System.out.println("Vruummmmmmm");
+            }else{
+                System.out.println("O carro está ligado!");
+                System.out.println("VRUUMMMMMM");
+            }
+        }
+    }
+
+
+    public Carro corrida(Carro carroAdversario) {
+        if (this.potencia > carroAdversario.potencia) {
+            return this;
+        } else if (carroAdversario.potencia > this.potencia) {
+            return carroAdversario;
+
+        } else if (this.cilindrada > carroAdversario.cilindrada) {
+            return this;
+        } else if (carroAdversario.cilindrada > this.cilindrada) {
+            return carroAdversario;
+
+        } else if (this.anoFabrico > carroAdversario.anoFabrico) {
+            return carroAdversario;
+        } else if (carroAdversario.anoFabrico > this.anoFabrico) {
+            return this;
+        } else {
+            return null;
+        }
+    }
+
+
+    public double consumo(double distancia){
+
+        return (distancia/100)*litros100Km;
+
+
+    }
+
+
+
+
     public String getMarca() {
         return marca;
     }
@@ -49,25 +101,6 @@ public class Carro {
         return litros100Km;
     }
 
-    public void ligar(){
-        if((2023-this.anoFabrico)>30){
-            if(this.combustivel.equals(Combustivel.DIESEL)){
-                System.out.println("Deita um pouco de fumo… Custa a pegar… O carro está ligado!");
-                System.out.println("Vrum-vrum-vrum");
-            }else{
-                System.out.println("Custa a pegar… O carro está ligado!");
-                System.out.println("Vrum-vrum-vrum");
-            }
-        }else{
-            if(this.potencia<250){
-                System.out.println("O carro está ligado!");
-                System.out.println("Vruummmmmmm");
-            }else{
-                System.out.println("O carro está ligado!");
-                System.out.println("VRUUMMMMMM");
-            }
-        }
-    }
     public void acelerar() {
         System.out.println("Vrrrrrm");
     }
@@ -99,4 +132,7 @@ public class Carro {
     public void setLitros100Km(double litros100Km) {
         this.litros100Km = litros100Km;
     }
+
+
+
 }

@@ -1,7 +1,7 @@
 public class Conta {
 
-    int numConta;
-    double saldo;
+    int numConta, anoAbertura;
+    double saldo, margemEmprestimo, valorDivida;
     private String titular;
 
 
@@ -9,6 +9,9 @@ public class Conta {
         this.numConta = numConta;
         this.saldo = saldo;
         this.titular = titular;
+        this.anoAbertura=2023;
+        this.valorDivida=0;
+        this.margemEmprestimo=this.saldo*0.9;
     }
 
     public double depositar(double valor){
@@ -41,6 +44,18 @@ public class Conta {
             return true;
         } else {
             System.out.println("Saldo insuficiente!");
+            return false;
+        }
+    }
+
+    public boolean emprestimo(double valor){
+        if(valor <= this.margemEmprestimo && this.valorDivida <= margemEmprestimo){
+            this.saldo += valor;
+            this.valorDivida += valor;
+            System.out.println("Empréstimo concedido no valor de " + valor + " euros. Saldo atual: " + this.saldo +" euros.");
+            return true;
+        }else{
+            System.out.println("Empréstimo não concedido");
             return false;
         }
     }

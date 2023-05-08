@@ -10,7 +10,9 @@ public class Ex11 {
         Conta conta_B = new Conta(200, 1234.45,"Idalina Fonseca");
         Conta conta_C = new Conta(300, 580.23,"Josefa Botelho");
 
-        System.out.println("\n***** Depositar *****");
+        double valor;
+
+        /*System.out.println("\n***** Depositar *****");
         System.out.println("Qual o valor a depositar: ");
         double valor = input.nextDouble();
         conta_A.depositar(valor);
@@ -29,7 +31,12 @@ public class Ex11 {
 
 
         System.out.println("Saldo atual da conta B: " + conta_B.getSaldo() );
-        System.out.println("Saldo atual da conta C: " + conta_C.getSaldo() );
+        System.out.println("Saldo atual da conta C: " + conta_C.getSaldo() );*/
+
+        System.out.println("\n***** Empréstimo *****");
+        System.out.println("Qual o valor a pedir como emprestimo: ");
+        valor = input.nextDouble();
+        conta_A.emprestimo(valor);
 
     }
 }
