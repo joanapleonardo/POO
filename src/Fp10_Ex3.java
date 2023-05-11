@@ -8,6 +8,7 @@ public class Fp10_Ex3 {
         alimento.add("cenouras");
         alimento.add("maças");
         alimento.add("couves");
+
         Animal burro = new Animal("Zacarias", "Burro", "Portugal", 235.50, alimento);
         System.out.println("Peso: "+burro.getPeso());
 
