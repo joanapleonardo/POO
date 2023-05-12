@@ -45,8 +45,8 @@ public class Agenda {
     }
 
     public void listarPessoas() {
-        for (Pessoa2 pessoa2 : this.contactos) {
-            System.out.println(pessoa2.getNome() + " - " + pessoa2.getIdade() + " anos - " + pessoa2.getEmail() + " - " + pessoa2.getTelemovel());
+        for (Pessoa2 pessoa : this.contactos) {
+            System.out.println(pessoa.getNome() + " - " + pessoa.getIdade() + " anos - " + pessoa.getEmail() + " - " + pessoa.getTelemovel());
         }
     }
 

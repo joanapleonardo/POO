@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="020cf946-f901-4138-a8b6-0f1a8a2f587d" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FP10_Ex5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="020cf946-f901-4138-a8b6-0f1a8a2f587d" name="Changes" comment="Aula 11/05">
+      <change afterPath="$PROJECT_DIR$/src/Atleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FP10_Ex6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fp09/Ex05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fp10_Ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fp10_Ex3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Agenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,7 @@
       <workItem from="1682674395207" duration="8976000" />
       <workItem from="1683205644999" duration="26092000" />
       <workItem from="1683534238537" duration="248000" />
+      <workItem from="1683880147560" duration="3081000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1683274617508</created>
@@ -76,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683274617508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aula 11/05">
+      <created>1683820494077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683820494077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Aula 11/05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 11/05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
